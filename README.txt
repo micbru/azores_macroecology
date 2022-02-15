@@ -11,6 +11,8 @@ The files SAR_analysis and SAR_analysis_indigenous are the analysis for the SAR 
 
 The Plots_across_patterns files takes information from the SAD, MRDI, and SAR analysis and plots all of the summarized information on a single plot. This includes the means of the mlsq across land use, including with indigenous and introduced species separate, which are the main plots in the paper. It also has the KS comparison for the SAD and MRDI in the appendix.
 
+The file StatisticalAnalyses.ipynb has the ANOVA + Tukey test as well as the Kruskal-Wallis + Dunn test used in the appendix to support our results.
+
 The Table2_SN_data obtains all of the information for median S and N across land use, and the total S and N. This is all in the table in the main text.
 
 Finally, IntraspecificBodyMassVariation obtains the relationship between mean and variance for body mass for a subset of beetle and spider species. This is in the appendix. These values are then used to reconstruct the intraspecific MRDI in the MRDI analysis.

@@ -96,13 +96,13 @@ def mrdi_inv_cdf(u,l):
     logarg = (u-np.exp(b))/(u-1)
     return (np.log(logarg)-l[0])/l[1]
     
-def mrdi_rvs(s,l,rs=rng):
-    '''Simulate s draws from the mrdi distribution with lambdas l
+def mrdi_rvs(n,l,rs=rng):
+    '''Simulate n draws from the mrdi distribution with lambdas l
     Return rank ordered
     By default put the generator as a global one but make it changeable.
     '''
     # Get s random uniform variables
-    u = rs.random(s)
+    u = rs.random(n)
     # Get the inverse cdf at that point
     e = mrdi_inv_cdf(u,l)
     # Return rank ordered

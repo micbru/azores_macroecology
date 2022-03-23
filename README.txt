@@ -1,5 +1,4 @@
-These jupyter notebooks replicate all analysis in the paper "Land use change through the lens of macroecology: new
-insights from Azorean arthropod communities", by M Brush, TJ Matthews, PAV Borges, J Harte.
+These jupyter notebooks replicate all analysis in the paper "Land use change through the lens of macroecology: insights from Azorean arthropods and the Maximum Entropy Theory of Ecology", by M Brush, TJ Matthews, PAV Borges, J Harte. in Ecography, 2022, DOI: 10.1111/ecog.06141
 
 The figures for the paper are all output to the Figures file. 
 The RawData folder is the raw data from the Azorean arthropods, including the the transect level abundances, spatial information for certain transects, and intraspecific body mass information for a few species of beetles and spiders.
